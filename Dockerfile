@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Awesome Developer <yongchanong@gmail.com> 
+MAINTAINER AndrewAI <yongchanong@gmail.com> 
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
 RUN apt-get update && \ 
@@ -13,7 +13,6 @@ RUN wget "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-
 	tar xjf phantomjs-2.1.1-linux-x86_64.tar.bz2
 ENV PATH=$PATH:/usr/src/plugins/phantomjs-2.1.1-linux-x86_64/bin
 WORKDIR /usr/src/app
-
 # About selenium browser download: 
 # http://www.seleniumhq.org/download/ 
 # About ubuntu install selenium + phantomjs:
