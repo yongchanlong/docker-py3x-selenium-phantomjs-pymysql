@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER AndrewAI <yongchanong@gmail.com> 
+LABEL authors="AndrewAI <yongchanlong@gmail.com>"
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
 RUN apt-get update && \ 
